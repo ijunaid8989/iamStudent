@@ -1,4 +1,3 @@
-
 sayHi = ->
   console.log 'hi'
 
