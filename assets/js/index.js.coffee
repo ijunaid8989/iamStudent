@@ -1,4 +1,3 @@
-require(bcrypt)
 sendAJAXRequest = (settings) ->
   token = $('meta[name=" csrf-token"]')
   if token.size() > 0
@@ -44,4 +43,3 @@ checkInputs = (username, password) ->
 
 window.initializeMain = ->
   onSignIn()
-  hashPasword()

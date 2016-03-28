@@ -15,7 +15,8 @@ app.get("/", function(req,res){
 });
 
 app.post("/login_enpoint", function(req, res){
-  console.log(req.body)
+  var HashPas = passwordHash.generate(req.body.password);
+  console.log(HashPas)
 });
 
 app.listen(3000,function(){
