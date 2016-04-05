@@ -19,6 +19,6 @@ app.post("/login_enpoint", function(req, res){
   console.log(HashPas)
 });
 
-app.listen(3000,function(){
+app.listen(3000, function(){
   console.log("App is listing at port");
 });
